@@ -1,0 +1,294 @@
+/* 2024.0126 Update seller.jsp 항목추가*/ 
+
+/* 2024.0125 Update */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+	font-family: 'Pretendard-Regular';
+}
+
+
+/********  Start - seller.jsp ************/
+
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu_icon{
+	width: 40px;
+}
+
+.pd10{
+	padding: 10px 0px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.f210{
+    font-family: "supersize-bk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.f15{	font-size: 15px;	}
+.f20{	font-size: 20px;	}
+.f25{	font-size: 25px;	}
+.f30{	font-size: 30px;	}
+.cmain{		color: #c45654;	}
+.csilver{	color: #cccccc;	}
+
+
+.tt {
+    border: 1px solid red;
+}
+
+
+
+/*========== End - seller.jsp */
+
+
+
+
+/********  menu_intro ************/
+
+shop_tt{
+	background-image: url("../img/shop.jpg");
+	background-repeat: no-repeat;
+	background-size: 1vw;
+}
+
+
+ .product {
+  	box-shadow: 0px 0px 0px 7px #eee,
+ 				0px 0px 0px 8px #999;
+	border-radius: 10px;
+ }
+
+ .productsub {
+ 	
+ 	box-shadow: 0px 0px 0px 7px #b3d5ff,
+ 				0px 0px 0px 8px #999;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color: #b3d5ff;
+ }
+
+
+
+
+
+
+.badge {
+  background-color: rgb(247, 189, 29);
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+}
+/*========== menu intro */
+
+
+
+
+/********  menu_detail ************/
+.page-title{
+	
+	font-size: 50px;
+	
+}
+
+
+.btn_cart{
+    background-color: #eeeeee;
+    color: #333;
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
+    padding: 5px 0px;
+    border-bottom: 2px solid rgb(130, 203, 245);
+    border-radius: 12px;
+    margin: 5px;
+}
+
+.btn_cart:hover{
+    background-color: #98c8ff;
+    box-shadow: inset 0px 10px 5px 0px #6b99ce;
+    transition: 0.2s;
+}
+
+
+.btn_order{
+	color: #333;
+    background-color: #98c8ff;
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
+    padding: 5px 0px;
+    border-bottom: 2px solid rgb(130, 203, 245);
+    border-radius: 12px;
+    margin: 5px;
+}
+
+.btn_order:hover{
+    background-color: #98c8ff;
+    box-shadow: inset 0px 10px 5px 0px #6b99ce;
+    transition: 0.2s;
+}
+
+
+.btn_menu{
+	color: #fff;
+    background-color: #b5a68e;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    padding: 5px 0px;
+    border-bottom: 2px solid #cccccc;
+    border-radius: 12px;
+    margin: 5px;	
+}
+.btn_menu:hover{
+	color: #fff;
+    background-color: #c45654;
+    box-shadow: inset 0px 10px 5px 0px #b13c3a;
+    transition: 0.3s;
+}
+
+/*========== menu detail */
+
+
+
+
+
+
+
+/* center */
+.c {
+    text-align: center;
+}
+
+
+
+.t{border: 1px solid red;}
+.top_margin{padding-top:0px;}
+
+.bg_e{
+	background-color: #fff;
+	border-bottom: 2px solid rgb(130, 203, 245);
+}
+
+.wid40{    width: 40%;    }
+.wid50{    width: 50%;    }
+.wid100{    width: 100%;    }
+
+#menu_box{
+	border: 0px solid red;
+}
+
+#menu_box div{
+	display: inline-block;
+}
+#menu_box #food_category_name{
+    background-color: #eee;
+    width: 83px;
+    padding: 5px 0px;
+    border-bottom: 2px solid rgb(130, 203, 245);
+    border-radius: 12px;
+    margin: 2px;
+}
+
+
+.category{
+    border: 1px solid #ccc;
+}
+
+.category:hover{
+    border: 1px solid #bb3939;
+}
+
+
+/* line */
+hr{
+    height: 5px;
+}
+
+/* section title line */
+.st{
+    font-size: 2em;
+    background-attachment: fixed;
+    background-image: url(../img/bg.jpg);
+    height: 80px;
+    padding-top: 20px;
+}
+
+.bg_black{
+    background-color: #eee;
+}
+
+/* btn */
+.btn_e{
+    background-color: #eee;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    padding: 5px 0px;
+    border-bottom: 2px solid rgb(130, 203, 245);
+    border-radius: 12px;
+    margin: 5px;
+}
+.btn_e:hover{
+    background-color: #98c8ff;
+    box-shadow: inset 0px 10px 5px 0px #6b99ce;
+    transition: 0.2s;
+}
+
+.btn_m{
+    background-color: #98c8ff;
+    width: 180px;
+    height: 50px;
+    font-size: 12px;
+    padding: 0px 20px;
+    border-bottom: 2px solid rgb(130, 203, 245);
+    border-radius: 12px;
+    margin: 5px;
+}
+
+.btn_up{
+    width: 50px;
+    height: 30px;
+    font-size: 12px;
+    padding: 5px 0px;
+    border-bottom: 2px solid rgb(130, 203, 245);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.nav_loc{
+    
+    height: 30px;
+    font-size: 12px;
+    padding: 5px 0px;
+    border: 0px solid #333;
+    border-radius: 5px;
+    margin: 5px;
+    text-indent: 10px;
+
+    box-shadow: inset 1px 0px 1px #333,
+                inset 0px 0px 3px #eee;
+}
+
+.tt_image{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}

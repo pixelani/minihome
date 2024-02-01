@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+/* form CSS ( login + sign-up 전용) */
+
+#user_id_msg, #user_name_msg, #user_pwd_msg, #user_cellphone_msg, #user_email_msg, 
+#user_addr_msg, #user_order_addr_msg, #user_proof_msg{
+	color: #888;
+	font-size: 12px;
+}
+
+.input_msg{
+	color: #888;
+	font-size: 10px;
+}
+
+
+.t{border: 1px solid red;}
+
+
+.tt{
+  border: 1px solid red;
+  }
+  
+  .join_check{
+  clear: both;
+  	width: 33%;
+  	display: inline;
+  	float: left;
+  	color: black;
+	font-size: 12px;
+  	height: 30px;
+  	
+  }
+  
+  .gap{
+  height: 20px;}
+
+	:root {
+	    --background: #eeeeee;
+	    --color: #ffffff;
+	    --primary-color: rgb(130, 203, 245);
+	}
+
+
+
+
+a {
+    text-decoration: none;
+    color: var(--color);
+}
+
+/* 회원가입 타이틀 */
+.illustration_s {
+	background-image:url("../img/signup_img.png");
+	background-repeat: no-repeat;
+    top: 10px;
+    width: 400px;
+    padding-top: 200px;
+    
+}
+
+/* 회원정보수정 타이틀 */
+.illustration_m {
+	background-image:url("../img/modify_img.png");
+	background-repeat: no-repeat;
+    top: 10px;
+    width: 400px;
+    padding-top: 200px;
+    
+}
+
+/* 로그인타이플 */
+.illustration_l {
+	background-image:url("../img/login_img.png");
+	background-repeat: no-repeat;
+    top: 10px;
+    width: 400px;
+    padding-top: 200px;
+}
+
+
+.register-forget {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* login */
+.btn_login{
+    background-color: #98c8ff;
+    width: 300px;
+    height: 30px;
+    font-size: 12px;
+    color: #333;
+    padding: 5px 0px;
+    border-bottom: 2px solid rgb(130, 203, 245);
+    border-radius: 12px;
+    margin: 5px;
+}
+.btn_login:hover{
+    background-color: #98c8ff;
+    box-shadow: inset 0px 10px 5px 0px #6b99ce;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+@keyframes wobble {
+    0% {
+        transform: scale(1.025);
+        -webkit-transform: scale(1.025);
+        -moz-transform: scale(1.025);
+        -ms-transform: scale(1.025);
+        -o-transform: scale(1.025);
+    }
+    25% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+    75% {
+        transform: scale(1.025);
+        -webkit-transform: scale(1.025);
+        -moz-transform: scale(1.025);
+        -ms-transform: scale(1.025);
+        -o-transform: scale(1.025);
+    }
+    100% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+}
